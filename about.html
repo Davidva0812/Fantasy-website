@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Eldoria, a magical world of adventure and mystery. Discover characters, spells, and more."
+    />
+    <title>About | Tales of Eldoria</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <audio id="background-audio" loop>
+      <source src="audio/Exploration.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="banner">
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        d-md-none
+        data-bs-toggle="collapse"
+        data-bs-target="#menu_dropdown"
+      >
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="logo">Tales of Eldoria</div>
+      <div class="audio_toggle">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </div>
+    </div>
+    <nav class="navbar menu">
+      <div class="collapse navbar-collapse d-md-block" id="menu_dropdown">
+        <ul class="custom-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link menupoint">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="history.html" class="nav-link menupoint">History</a>
+          </li>
+          <li class="nav-item">
+            <a href="world.html" class="nav-link menupoint">The World</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              id="dropdown1"
+              data-bs-toggle="dropdown"
+              href="#"
+              class="nav-link dropdown-toggle"
+            >
+              Characters</a
+            >
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="dropdown">
+              <li>
+                <a href="heroes/barbarian.html" class="dropdown-item"
+                  >Barbarian</a
+                >
+              </li>
+              <li>
+                <a href="heroes/wizard.html" class="dropdown-item">Wizard</a>
+              </li>
+              <li>
+                <a href="heroes/rogue.html" class="dropdown-item">Rogue</a>
+              </li>
+              <li>
+                <a href="heroes/paladin.html" class="dropdown-item">Paladin</a>
+              </li>
+              <li>
+                <a href="heroes/necromancer.html" class="dropdown-item"
+                  >Necromancer</a
+                >
+              </li>
+              <li>
+                <a href="heroes/druid.html" class="dropdown-item">Druid</a>
+              </li>
+              <li>
+                <a href="heroes/cryomancer.html" class="dropdown-item"
+                  >Cryomancer</a
+                >
+              </li>
+              <li><a href="heroes/bard.html" class="dropdown-item">Bard</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="spells.html" class="nav-link menupoint">Spells</a>
+          </li>
+          <li class="nav-item">
+            <a href="screenshots.html" class="nav-link menupoint"
+              >Screenshots</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link menupoint">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <h1 class="title">About This Project</h1>
+      <p>
+        Hello! My name is David Varga, and I'm an aspiring web developer with a
+        strong passion for fantasy storytelling, game design, and user interface
+        development.<br />
+        This project, <strong>Tales of Eldoria</strong>, is a fictional fantasy
+        RPG website designed to showcase my front-end skills, including
+        responsive design, layout structuring, CSS styling, and interactive
+        components.
+      </p>
+      <h2 style="margin-left: 20px; font-weight: bold">What I Used</h2>
+      <ul class="fs-4">
+        <li>HTML5, semantic structure</li>
+        <li>CSS3 with custom styling and media queries</li>
+        <li>Bootstrap 5 components</li>
+        <li>Responsive design techniques</li>
+        <li>JavaScript for creating the audio button and dynamic footer</li>
+        <li>Font Awesome for icons</li>
+      </ul>
+      <br />
+      <h2 style="margin-left: 20px; font-weight: bold">Useful Links</h2>
+      <ul class="fs-4">
+        <li>
+          <a class="link" href="https://getbootstrap.com/" target="_blank"
+            >Bootstrap Documentation</a
+          >
+        </li>
+        <li>
+          <a class="link" href="https://fontawesome.com/" target="_blank"
+            >Font Awesome Icons</a
+          >
+        </li>
+        <li>
+          <a class="link" href="/form.html" target="_blank"
+            >Sign up form for Beta test</a
+          >
+        </li>
+        <li>
+          <a class="link" href="https://github.com/Davidva0812" target="_blank">
+            <i class="fab fa-github"></i> My GitHub
+          </a>
+        </li>
+        <li>
+          <a class="link" href="#" target="_blank">My Personal website</a>
+        </li>
+      </ul>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
