@@ -35,7 +35,7 @@
 ## Try It Out
 
 You can explore the live version of the site here:  
-👉 _[Insert link to GitHub Pages or Netlify if available]_
+👉 https://github.com/Davidva0812/Fantasy-website
 
 ## License
 
