@@ -35,7 +35,7 @@
 ## Try It Out
 
 You can explore the live version of the site here:  
-👉 https://github.com/Davidva0812/Fantasy-website
+👉 https://davidva0812.github.io/Fantasy-website/
 
 ## License
 
@@ -54,7 +54,3 @@ Created by David Varga, aspiring frontend developer with a passion for fantasy d
 This project is part of my **junior web developer portfolio**, and includes both essential and creative frontend techniques to demonstrate my skills.
 
 ---
-
-### Feedback or Questions?
-
-Feel free to contact me via [LinkedIn/email/portfolio link].
