@@ -1,6 +1,6 @@
-# Arcane Realms – Fantasy RPG Website
+# Tales of Eldoria – Fantasy RPG Website
 
-**Arcane Realms** is a handcrafted fantasy-themed RPG website created as a portfolio project. It demonstrates frontend skills through immersive design, interactive elements, and structured content. The project aims to simulate the worldbuilding and interface of a fictional game.
+**Tales of Eldoria** is a handcrafted fantasy-themed RPG website created as a portfolio project. It demonstrates frontend skills through immersive design, interactive elements, and structured content. The project aims to simulate the worldbuilding and interface of a fictional game.
 
 ## Features
 
