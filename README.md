@@ -1,6 +1,6 @@
-# Arcane Realms – Fantasy RPG Website
+# Tales of Eldoria – Fantasy RPG Website
 
-**Arcane Realms** is a handcrafted fantasy-themed RPG website created as a portfolio project. It demonstrates frontend skills through immersive design, interactive elements, and structured content. The project aims to simulate the worldbuilding and interface of a fictional game.
+**Tales of Eldoria** is a handcrafted fantasy-themed RPG website created as a portfolio project. It demonstrates frontend skills through immersive design, interactive elements, and structured content. The project aims to simulate the worldbuilding and interface of a fictional game.
 
 ## Features
 
@@ -35,7 +35,7 @@
 ## Try It Out
 
 You can explore the live version of the site here:  
-👉 _[Insert link to GitHub Pages or Netlify if available]_
+👉 https://davidva0812.github.io/Fantasy-website/
 
 ## License
 
@@ -54,7 +54,3 @@ Created by David Varga, aspiring frontend developer with a passion for fantasy d
 This project is part of my **junior web developer portfolio**, and includes both essential and creative frontend techniques to demonstrate my skills.
 
 ---
-
-### Feedback or Questions?
-
-Feel free to contact me via [LinkedIn/email/portfolio link].
