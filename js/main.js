@@ -12,3 +12,7 @@ document.querySelector('.audio_toggle').addEventListener('click', function() {
                 icon.classList.add('fa-volume-up');
             }
         });
+
+document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("year").textContent = new Date().getFullYear();
+})

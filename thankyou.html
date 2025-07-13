@@ -1,72 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Welcome to Eldoria, a magical world of adventure and mystery. Discover characters, spells, and more.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to Eldoria, a magical world of adventure and mystery. Discover characters, spells, and more."
+    />
     <title>Form | Tales of Eldoria</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <audio id="background-audio" loop>
-        <source src="audio/Exploration.mp3" type="audio/mp3">
-        Your browser does not support the audio element.
+      <source src="audio/Exploration.mp3" type="audio/mp3" />
+      Your browser does not support the audio element.
     </audio>
 
     <div class="banner">
-        <button class="navbar-toggler d-md-none" type="button" d-md-none data-bs-toggle="collapse" data-bs-target="#menu_dropdown">
-            <i class="fa fa-bars"></i>
-        </button>
-        <div class="logo">Tales of Eldoria</div>
-        <div class="audio_toggle">
-            <i class="fa fa-volume-up" aria-hidden="true"></i>
-        </div>
+      <button
+        class="navbar-toggler d-md-none"
+        type="button"
+        d-md-none
+        data-bs-toggle="collapse"
+        data-bs-target="#menu_dropdown"
+      >
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="logo">Tales of Eldoria</div>
+      <div class="audio_toggle">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </div>
     </div>
     <nav class="navbar menu">
-        <div class="collapse navbar-collapse d-md-block" id="menu_dropdown">
-            <ul class="custom-nav">
-                <li class="nav-item"><a href="index.html" class="nav-link menupoint">Home</a></li>
-                <li class="nav-item"><a href="history.html" class="nav-link menupoint">History</a></li>
-                <li class="nav-item"><a href="world.html" class="nav-link menupoint">The World</a></li>
-                <li class="nav-item dropdown">
-                    <a id="dropdown1" data-bs-toggle="dropdown" href="#" class="nav-link dropdown-toggle">
-                            Characters</a>
-                        <!-- Dropdown menu -->
-                         <ul class="dropdown-menu" aria-labelledby="dropdown">
-                            <li><a href="heroes/barbarian.html" class="dropdown-item">Barbarian</a></li>
-                            <li><a href="heroes/wizard.html" class="dropdown-item">Wizard</a></li>
-                            <li><a href="heroes/rogue.html" class="dropdown-item">Rogue</a></li>
-                            <li><a href="heroes/paladin.html" class="dropdown-item">Paladin</a></li>
-                            <li><a href="heroes/necromancer.html" class="dropdown-item">Necromancer</a></li>
-                            <li><a href="heroes/druid.html" class="dropdown-item">Druid</a></li>
-                            <li><a href="heroes/cryomancer.html" class="dropdown-item">Cryomancer</a></li>
-                            <li><a href="heroes/bard.html" class="dropdown-item">Bard</a></li>
-                        </ul> 
-                </li>
-                <li class="nav-item"><a href="spells.html" class="nav-link menupoint">Spells</a></li>
-                <li class="nav-item"><a href="screenshots.html" class="nav-link menupoint">Screenshots</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link menupoint">About</a></li>
+      <div class="collapse navbar-collapse d-md-block" id="menu_dropdown">
+        <ul class="custom-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link menupoint">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="history.html" class="nav-link menupoint">History</a>
+          </li>
+          <li class="nav-item">
+            <a href="world.html" class="nav-link menupoint">The World</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              id="dropdown1"
+              data-bs-toggle="dropdown"
+              href="#"
+              class="nav-link dropdown-toggle"
+            >
+              Characters</a
+            >
+            <!-- Dropdown menu -->
+            <ul class="dropdown-menu" aria-labelledby="dropdown">
+              <li>
+                <a href="heroes/barbarian.html" class="dropdown-item"
+                  >Barbarian</a
+                >
+              </li>
+              <li>
+                <a href="heroes/wizard.html" class="dropdown-item">Wizard</a>
+              </li>
+              <li>
+                <a href="heroes/rogue.html" class="dropdown-item">Rogue</a>
+              </li>
+              <li>
+                <a href="heroes/paladin.html" class="dropdown-item">Paladin</a>
+              </li>
+              <li>
+                <a href="heroes/necromancer.html" class="dropdown-item"
+                  >Necromancer</a
+                >
+              </li>
+              <li>
+                <a href="heroes/druid.html" class="dropdown-item">Druid</a>
+              </li>
+              <li>
+                <a href="heroes/cryomancer.html" class="dropdown-item"
+                  >Cryomancer</a
+                >
+              </li>
+              <li><a href="heroes/bard.html" class="dropdown-item">Bard</a></li>
             </ul>
-        </div>
+          </li>
+          <li class="nav-item">
+            <a href="spells.html" class="nav-link menupoint">Spells</a>
+          </li>
+          <li class="nav-item">
+            <a href="screenshots.html" class="nav-link menupoint"
+              >Screenshots</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link menupoint">About</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <main>
-        <div class="card text-center mt-5 p-4 shadow" style="max-width: 600px; margin: auto;">
-            <div class="card-body">
-                <h3 class="card-title">Thank you, Adventurer!</h3>
-                <p class="card-text">Your application to join the beta test has been received.</p>
-                <div class="cta-buttons">
-                    <a href="index.html" class="btn">Return to Home</a>
-                </div>
-            </div>
+      <div
+        class="card text-center mt-5 p-4 shadow"
+        style="max-width: 600px; margin: auto"
+      >
+        <div class="card-body">
+          <h3 class="card-title">Thank you, Adventurer!</h3>
+          <p class="card-text">
+            Your application to join the beta test has been received.
+          </p>
+          <div class="cta-buttons">
+            <a href="index.html" class="btn">Return to Home</a>
+          </div>
         </div>
-
+      </div>
     </main>
+
+    <footer style="text-align: center; margin-top: 50px">
+      <p>
+        &copy; <span id="year"></span> Tales of Eldoria project. All rights
+        reserved.
+      </p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    
-</body>
+  </body>
 </html>
