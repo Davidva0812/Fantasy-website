@@ -10,12 +10,8 @@ body {
     box-sizing: border-box;
 }
 
-/**{
-  outline: 1px solid red;
-}*/
-
 .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.4)), 
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)), 
                     url("../images/town_background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -315,6 +311,12 @@ body.screenshot-page {
   color: black;
 }
 
+footer {
+    text-align: center;
+    margin-top: 5rem;
+    background-color: rgb(249, 239, 200);
+    padding: 0.5rem 1rem;
+}
 
 
 @media (min-width: 992px) {
