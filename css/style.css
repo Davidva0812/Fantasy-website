@@ -11,18 +11,31 @@ body {
 }
 
 .banner {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3)), 
-                    url("../images/town_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 2px 4px;
-    text-align: center;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    z-index: 1000;
-    height: 120px;
+  background-image: linear-gradient(300deg,  rgba(255, 200, 0, 0.3), rgba(255, 85, 85, 0.3), rgba(50, 100, 255, 0.3)), 
+                  url("../images/town_background.jpg");
+  background-size: 180% 180%, cover;
+  background-position: 0% 50%, center;
+  background-repeat: no-repeat;
+  padding: 2px 4px;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  height: 120px;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%, center;
+  }
+  50% {
+    background-position: 100% 50%, center;
+  }
+  100% {
+    background-position: 0% 50%, center;
+  }
 }
 
 .logo {
