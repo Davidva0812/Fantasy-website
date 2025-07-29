@@ -11,7 +11,7 @@ body {
 }
 
 .banner {
-  background-image: linear-gradient(300deg,  rgba(255, 200, 0, 0.3), rgba(255, 85, 85, 0.3), rgba(50, 100, 255, 0.3)), 
+  background-image: linear-gradient(300deg,  rgba(255, 200, 0, 0.3), rgba(50, 100, 255, 0.3), rgba(255, 85, 85, 0.3), rgba(50, 100, 255, 0.3)), 
                   url("../images/town_background.jpg");
   background-size: 180% 180%, cover;
   background-position: 0% 50%, center;
@@ -55,12 +55,12 @@ body {
 
 .fa {
     font-size: 35px;
-    color: darkred;
+    color: rgb(209, 158, 29);
     cursor: pointer;
 }
 
 .fa:hover {
-    color: rgb(209, 158, 29);
+    color: darkred;
 }
 
 .menu {
