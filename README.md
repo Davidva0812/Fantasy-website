@@ -2,6 +2,11 @@
 
 **Tales of Eldoria** is a handcrafted fantasy-themed RPG website created as a portfolio project. It demonstrates frontend skills through immersive design, interactive elements, and structured content. The project aims to simulate the worldbuilding and interface of a fictional game.
 
+## Try It Out
+
+You can explore the live version of the site here:  
+👉 https://davidva0812.github.io/Fantasy-website/
+
 ## Features
 
 - 🗺️ Multiple themed subpages (World, Heroes, Magic Schools, Equipment, About)
@@ -31,11 +36,6 @@
 - `screenshots.html` – Screenshot gallery
 - `about.html` – Creator bio and useful links
 - `barbarian.html`, `wizard.html`, `rogue.html`, `necromancer.html`, `paladin.html`,`druid.html`, `cryomancer.html`, `bard.html` - HTML files for the Characters
-
-## Try It Out
-
-You can explore the live version of the site here:  
-👉 https://davidva0812.github.io/Fantasy-website/
 
 ## License
 
